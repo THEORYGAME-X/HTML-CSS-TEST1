@@ -1,0 +1,86 @@
+body{width: 100%;}
+header{height: 100px ;
+
+	background: #404040 url(../img/logo.png) no-repeat left top ;
+	
+}
+nav ul li{
+float: right;
+margin: 80px 10px 10px 10px;
+}
+
+.bookblock,.footer{padding: 20px;
+	margin: 20px 10px 10px 10px;
+background: #D9D6CF;
+border:medium none yellowgreene;}
+#font h1{
+	font: bold 50px "agency fb";
+	}
+#font h2,p{
+	font: lighter 20px sans-serif;
+	
+}
+img{width: 200px;	
+}
+
+	.gallery div{width: 200px;
+		height: 200px;
+	padding: 20px;
+	margin: 20px;
+	border: #000000 dashed 2px;
+	text-align:center;
+	}
+#table{
+	width: 800px;
+	text-align: center;
+	margin: 0px;
+border:  2px thin black;
+border-color: chocolate !important;
+border-collapse: collapse;
+}
+#table th,td{border: 2px dotted black ;
+	
+}
+table th{
+	background-color: lightslategray;
+}
+
+tr:nth-child(4){background-color: white;
+	
+}
+
+
+table td[colspan]{
+	text-align: left;}
+	
+#feed{
+	width: inherit;
+	height: auto;
+	padding: 10px;
+	margin: 20px;
+}	
+
+
+	#footer div{
+	display: table-row;
+	}
+	
+#feed{display: table;
+padding: 10px;
+position: relative;
+left: 200px;
+
+}
+
+#align div p:nth-child{text-align: right;}
+#feed div p{
+	display: table-cell;
+	padding: 10px;
+	vertical-align: top;
+
+}
+#submit{
+	width:100%;
+	background-color: blue;
+	margin: 20px 0px;
+}
